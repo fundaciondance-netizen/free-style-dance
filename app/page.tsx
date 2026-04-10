@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <main className="relative bg-white">
       <DanceNavbar />
-      <DanceHero />
+{/*       <DanceHero /> */}
      {/*  <SocialProof />
       <ProblemSection imageSrc="/problem.png" />
       <SolutionSection imageSrc="/solucion.png" />
