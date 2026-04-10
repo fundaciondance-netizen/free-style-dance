@@ -15,7 +15,7 @@ import {FloatingPortfolio} from "@/components/float-buttons/FloatingPortfolio";
 export default function Home() {
   return (
     <main className="relative bg-white">
-      <DanceNavbar />
+   {/*    <DanceNavbar /> */}
 {/*       <DanceHero /> */}
      {/*  <SocialProof />
       <ProblemSection imageSrc="/problem.png" />
