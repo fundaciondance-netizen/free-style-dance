@@ -24,11 +24,11 @@ export default function Home() {
 {/*       <BenefitsSection />
       <TestimonialsSection />
       <FinalCTA imageSrc="/cta.png" /> */}
-      <Footer />
+      {/* <Footer />
 
       <WhatsAppFloat />
       <ScrollToTop />
-      <FloatingPortfolio />
+      <FloatingPortfolio /> */}
     </main>
   );
 }
