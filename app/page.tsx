@@ -15,20 +15,20 @@ import {FloatingPortfolio} from "@/components/float-buttons/FloatingPortfolio";
 export default function Home() {
   return (
     <main className="relative bg-white">
-   {/*    <DanceNavbar /> */}
-{/*       <DanceHero /> */}
-     {/*  <SocialProof />
+      <DanceNavbar />
+      {/* <DanceHero /> */}
+      <SocialProof />
       <ProblemSection imageSrc="/problem.png" />
       <SolutionSection imageSrc="/solucion.png" />
-      <ServicesSection /> */}
-{/*       <BenefitsSection />
+      <ServicesSection />
+      <BenefitsSection />
       <TestimonialsSection />
-      <FinalCTA imageSrc="/cta.png" /> */}
-      {/* <Footer />
+      <FinalCTA imageSrc="/cta.png" />
+      <Footer />
 
       <WhatsAppFloat />
       <ScrollToTop />
-      <FloatingPortfolio /> */}
+      <FloatingPortfolio />
     </main>
   );
 }
