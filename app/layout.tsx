@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "Aprende a bailar en Cali sin experiencia. Clases de danza urbana, bachata, salsa choke, kpop y más. Academia con ambiente familiar, horarios flexibles y shows para eventos.",
 
   alternates: {
-    canonical: "/", // 👈 esto ya genera https://www.freestyledancecali.com/
+    canonical: "/",
   },
 
   keywords: [
@@ -73,6 +73,72 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="es" className="h-full antialiased">
       <body className={`${arvo.className} min-h-full flex flex-col bg-black text-white`}>
+        
+        {/* 🔥 SCHEMA SEO COMPLETO */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "DanceSchool",
+              name: "Free Style Dance",
+              url: "https://www.freestyledancecali.com",
+              logo: "https://www.freestyledancecali.com/Logo.png",
+              image: "https://www.freestyledancecali.com/Logo.png",
+              description:
+                "Academia de baile en Cali con clases para niños, jóvenes y adultos. Aprende danza urbana, bachata, kpop y más.",
+
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Cali",
+                addressRegion: "Valle del Cauca",
+                addressCountry: "CO",
+              },
+
+              areaServed: {
+                "@type": "City",
+                name: "Cali",
+              },
+
+              sameAs: [
+                "https://instagram.com/freestyledance",
+                "https://tiktok.com/@freestyledance",
+              ],
+
+              contactPoint: {
+                "@type": "ContactPoint",
+                contactType: "customer service",
+                areaServed: "CO",
+                availableLanguage: ["Spanish"],
+              },
+
+              makesOffer: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Clases de danza urbana",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Clases de bachata",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Clases de K-pop",
+                  },
+                },
+              ],
+            }),
+          }}
+        />
+
         {children}
       </body>
     </html>

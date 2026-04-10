@@ -42,9 +42,14 @@ const defaultSlides = [
     alt: "Pareja bailando baile social",
   },
   {
-    name: "Danza Tradicional",
+    name: "Danzas Tradicionales",
     image: "/dance_image/danza/DANZAS_TRADICIONALES_1.webp",
     alt: "Pareja bailando danza tradicional",
+  },
+  {
+    name: "Gimnasia",
+    image: "/dance_image/gimnasia/gim_1.webp",
+    alt: "Pareja bailando gimnasia",
   },
 ];
 

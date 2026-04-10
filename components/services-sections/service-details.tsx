@@ -131,6 +131,20 @@ const services = [
       "Control corporal",
     ],
   },
+  {
+    title: "Danzas Tradicionales",
+    subtitle: "Conexión con raíces culturales",
+    description:
+      "Conecta con tus raíces a través de los bailes tradicionales colombianos y celebra tu cultura.",
+    image: "/dance_image/danza/DANZAS_TRADICIONALES_1.webp",
+    slug: "danzas-tradicionales",
+    benefits: [
+      "Conexión cultural",
+      "Expresión de identidad",
+      "Diversidad de estilos",
+      "Celebración de tradiciones",
+    ],
+  },
 ]
 
 export function ServiceDetails() {

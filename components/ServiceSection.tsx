@@ -60,6 +60,12 @@ const services = [
     image: "/dance_image/gimnasia/gim_1.webp",
     slug: "gimnasia"
   },
+    {
+    title: "Danzas Tradicionales",
+    description: "Conecta con tus raíces a través de los bailes tradicionales colombianos",
+    image: "/dance_image/danza/DANZAS_TRADICIONALES_1.webp",
+    slug: "danzas-tradicionales"
+  },
 ]
 
 export function ServicesSection() {
