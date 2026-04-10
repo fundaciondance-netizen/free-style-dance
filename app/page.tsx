@@ -21,9 +21,9 @@ export default function Home() {
       <ProblemSection imageSrc="/problem.png" />
       <SolutionSection imageSrc="/solucion.png" />
       <ServicesSection />
-      <BenefitsSection />
+{/*       <BenefitsSection />
       <TestimonialsSection />
-      <FinalCTA imageSrc="/cta.png" />
+      <FinalCTA imageSrc="/cta.png" /> */}
       <Footer />
 
       <WhatsAppFloat />

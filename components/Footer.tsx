@@ -63,13 +63,19 @@ export function Footer() {
           </div>
         </div>
 
-       {/* DERECHA (MAPA MÁS PRO) */}
-        <div className="relative w-full max-w-full overflow-hidden">
-          
+          {/* DERECHA (MAPA MÁS PRO) */}
+        <div className="relative w-full min-w-0 overflow-hidden">
           {/* glow */}
-          <div className="absolute inset-0 bg-[#ec3236]/10 blur-2xl scale-110 opacity-30 pointer-events-none" />
+          <div className="pointer-events-none absolute inset-0 bg-[#ec3236]/10 blur-2xl scale-110 opacity-30" />
 
-        
+          <div className="relative w-full rounded-2xl overflow-hidden border border-white/10 h-[260px] sm:h-[300px] md:h-[360px]">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.232265611901!2d-76.5635767!3d3.4183814!2m3!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a41b9d334885%3A0x72e020a89c86bdc4!2sFundaci%C3%B3n%20Nuevo%20Estilo%20Dance!5e0!3m2!1ses!2sco!4v1701826500000!5m2!1ses!2sco"
+              className="block w-full h-full border-0 grayscale md:hover:grayscale-0 transition-all duration-500"
+              loading="lazy"
+              style={{ border: 0 }}
+            />
+          </div>
         </div>
 
       </div>
