@@ -17,10 +17,10 @@ export default function Home() {
     <main className="relative bg-white">
       <DanceNavbar />
       <DanceHero />
-      <SocialProof />
+     {/*  <SocialProof />
       <ProblemSection imageSrc="/problem.png" />
       <SolutionSection imageSrc="/solucion.png" />
-      <ServicesSection />
+      <ServicesSection /> */}
 {/*       <BenefitsSection />
       <TestimonialsSection />
       <FinalCTA imageSrc="/cta.png" /> */}
