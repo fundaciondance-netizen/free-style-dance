@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   description:
     "Aprende a bailar en Cali sin experiencia. Clases de danza urbana, bachata, salsa choke y kpop. Academia con ambiente familiar y horarios flexibles.",
 
+  verification: {
+    google: "LIsIBy5Vd3rwadzzpLGfHcEsotPPYpP30V_URkOxK1w",
+  },
   alternates: {
     canonical: "/",
   },
