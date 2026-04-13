@@ -10,9 +10,9 @@ const arvo = Arvo({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.freestyledancecali.com"),
 
-  title: "Academia de baile en Cali | Clases de danza para niños, jóvenes y adultos",
+  title: "Academia de baile en Cali | Free Style Dance",
   description:
-    "Aprende a bailar en Cali sin experiencia. Clases de danza urbana, bachata, salsa choke, kpop y más. Academia con ambiente familiar, horarios flexibles y shows para eventos.",
+    "Aprende a bailar en Cali sin experiencia. Clases de danza urbana, bachata, salsa choke y kpop. Academia con ambiente familiar y horarios flexibles.",
 
   alternates: {
     canonical: "/",

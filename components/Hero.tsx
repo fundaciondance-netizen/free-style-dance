@@ -139,7 +139,7 @@ export function DanceHero({
       <div className="absolute inset-0">
         <Image
           src={activeBackground}
-          alt=""
+          alt="imagen de fondo del hero"
           fill
           priority={bgIndex === 0}
           sizes="100vw"
